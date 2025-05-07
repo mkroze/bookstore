@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Wireless Mouse",
+      "brand": "Logitech",
+      "price": 29.99,
+      "inStock": true
+    },
+    {
+      "name": "Mechanical Keyboard",
+      "brand": "Keychron",
+      "price": 89.5,
+      "inStock": true
+    },
+    {
+      "name": "USB-C Hub",
+      "brand": "Anker",
+      "price": 45,
+      "inStock": false
+    }
+  ]

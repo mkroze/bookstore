@@ -19,10 +19,11 @@ const userSchema = new mongoose.Schema(
       type: Number,
       min: [0, "Age must be a positive number"],
     },
+    isAdmin: { type: Boolean, required: true, default: false },
   },
   {
     timestamps: true, // adds createdAt and updatedAt
   }
 );
-
-export const User = mongoose.model("User", userSchema);
+const User = mongoose.model("User", userSchema) || userSchema;
+export default User

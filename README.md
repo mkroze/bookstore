@@ -18,3 +18,5 @@ the basic tree structure that it follows are as follow :
     ├── server.js                   # App server entry point (listen on port)
     └── utils                       # Helper utilities (pure functions)
         └── generateToken.js        # JWT token generation helper
+    └── constants                   # Constants definition
+        └── httpStatus.js           # Naming of the http status codes.
