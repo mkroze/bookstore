@@ -1,5 +1,5 @@
 This is a tutorial i'm following to master the concepts used in backend scalability
-
+```bash
 the basic tree structure that it follows are as follow :
 └── backend                         # Root folder for backend code
     ├── app.js                      # Express app setup (middleware, routes)
@@ -20,3 +20,4 @@ the basic tree structure that it follows are as follow :
         └── generateToken.js        # JWT token generation helper
     └── constants                   # Constants definition
         └── httpStatus.js           # Naming of the http status codes.
+```
